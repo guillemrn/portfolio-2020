@@ -13,7 +13,7 @@
     <div>
       <div class="designBox absolute z-0 inset-y-0 right-0"></div>
       <figure class="absolute z-10 bottom-0 img-boy">
-        <img src="https://i.imgur.com/2SMFTff.png" alt="Boy on a computer" />
+        <img src="https://i.imgur.com/VZZoC1O.png" alt="Boy on a computer" />
       </figure>
       <!-- <figure>
         <img src="https://i.imgur.com/Qjt8s2v.png" alt="" />
@@ -32,10 +32,13 @@
 .designBox {
   width: 40%;
   height: 100vh;
-  background-color: theme('colors.darkTheme');
+  background-color: var(--darkTheme);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 h1 {
-  font-family: 'Fredoka One', cursive;
+  font-family: var(--hero-buttons);
 }
 .img-boy {
   right: 10%;

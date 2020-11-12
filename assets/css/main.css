@@ -1,0 +1,23 @@
+:root{
+  --primary-color: #FF4B5C;
+  --primary-lighter: #FFA5AD;
+  --primary-dark: #FF5D6C;
+  --secondary-color: #056674;
+  --secondary-lighter: #82B3BA;
+  --secondary-dark: #1E7582;
+  --third-color: #66BFBF;
+  --third-lighter: #B3DFDF;
+  --third-dark: #75C5C5;
+  --darkTheme: #1F2E35;
+  --lightTheme: #F2FCFF;
+  --textDark: #1A3B34;
+  --textLight: #F9FEFF;
+  --body: 'Advent Pro', sans-serif;
+  --hero-buttons: 'Fredoka One', cursive;
+  --titles: 'Major Mono Display', monospace;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
