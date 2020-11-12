@@ -1,5 +1,20 @@
 <template>
   <div>
-    <h1 class="text-lg">Welcome!</h1>
+    <navigation />
+    <hero />
   </div>
 </template>
+
+<script>
+import Navigation from '@/components/Navigation'
+export default {
+  components: {
+    Navigation,
+  },
+}
+</script>
+<style>
+body {
+  background-color: theme('colors.lightTheme');
+}
+</style>

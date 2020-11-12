@@ -13,6 +13,15 @@ export default {
         type: 'image/x-icon',
         href: 'https://i.imgur.com/xpWcSg7.png',
       },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Advent+Pro&family=Fredoka+One&family=Major+Mono+Display&display=swap',
+      },
     ],
   },
 
@@ -29,8 +38,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
