@@ -15,7 +15,7 @@ export default {
       },
       {
         rel: 'preconnect',
-        href: 'https://fonts.gstatic.com'
+        href: 'https://fonts.gstatic.com',
       },
       {
         rel: 'stylesheet',
@@ -26,9 +26,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    '@/assets/css/main.css'
-  ],
+  css: ['@/assets/css/main.css', '@/assets/css/style.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
