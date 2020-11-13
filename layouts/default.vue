@@ -15,6 +15,6 @@ export default {
 </script>
 <style>
 body {
-  background-color: theme('colors.lightTheme');
+  background-color: var(--lightTheme);
 }
 </style>
