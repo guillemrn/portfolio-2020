@@ -21,3 +21,8 @@ html{
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+@font-face{
+  font-family: ink-free;
+  src: url(../fonts/ink-free-normal.ttf);
+}
