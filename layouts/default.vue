@@ -3,6 +3,7 @@
     <navigation />
     <hero />
     <projects />
+    <work />
   </div>
 </template>
 
