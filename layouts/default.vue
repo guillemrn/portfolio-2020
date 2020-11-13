@@ -2,6 +2,7 @@
   <div>
     <navigation />
     <hero />
+    <projects />
   </div>
 </template>
 
