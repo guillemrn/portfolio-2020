@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <figure>
-      <a href="https://memobrown.com" target="_blank"
+      <nuxt-link to="/"
         ><img src="https://i.imgur.com/dwTDVmu.png" alt="Logo MemoBrown"
-      /></a>
+      /></nuxt-link>
     </figure>
     <figure class="menu">
       <img src="https://i.imgur.com/vLLi05z.png" alt="Menu" />

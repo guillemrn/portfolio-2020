@@ -26,3 +26,7 @@ html{
   font-family: ink-free;
   src: url(../fonts/ink-free-normal.ttf);
 }
+
+body {
+  background-color: var(--lightTheme);
+}

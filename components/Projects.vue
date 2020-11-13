@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Proyectos</h1>
+    <nuxt-link to="/AllProjects" class="title">Proyectos</nuxt-link>
     <div class="projects">
       <figure class="man">
         <img src="https://i.imgur.com/o0XvBOn.png" alt="Man" />
@@ -59,7 +59,7 @@
   top: 10rem;
   transform: scale(1.1);
 }
-h1 {
+.title {
   font-size: 14rem;
   font-family: var(--titles);
   color: var(--textDark);
