@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nuxt-link to="/AllProjects" class="title">Proyectos</nuxt-link>
+    <nuxt-link to="/projects" class="title">Proyectos</nuxt-link>
     <div class="projects">
       <figure class="man">
         <img src="https://i.imgur.com/o0XvBOn.png" alt="Man" />
@@ -67,6 +67,7 @@
   padding-left: 30rem;
   font-weight: 400;
   margin: 0;
+  text-decoration: none;
 }
 .projects {
   display: flex;
