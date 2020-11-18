@@ -2,7 +2,10 @@
   <div class="container">
     <figure>
       <nuxt-link to="/"
-        ><img src="https://i.imgur.com/dwTDVmu.png" alt="Logo MemoBrown"
+        ><img
+          class="logo"
+          src="https://i.imgur.com/j5AJA7w.png"
+          alt="Logo MemoBrown"
       /></nuxt-link>
     </figure>
     <menu />
@@ -18,5 +21,9 @@
 .menu {
   position: relative;
   z-index: 1;
+}
+.logo {
+  width: 130px;
+  height: auto;
 }
 </style>

@@ -2,21 +2,21 @@
   <div>
     <navigation />
     <h1>Proyectos</h1>
-    <figure>
+    <figure class="img-container">
       <img src="https://i.imgur.com/xFwvB6k.png" alt="Man working" />
     </figure>
 
     <div class="projects">
       <div class="project-img">
-        <div class="project">
+        <nuxt-link to="/projects/Raypal" class="project">
           <img
             class="raypal"
             src="https://i.imgur.com/BYtWpA6.png"
             alt="Raypal"
           />
-        </div>
+        </nuxt-link>
 
-        <div>
+        <div class="div">
           <nuxt-link to="/projects/MemoBrown" class="project">
             <img
               class="memobrown"
@@ -25,22 +25,22 @@
             />
           </nuxt-link>
 
-          <div class="project">
+          <nuxt-link to="/projects/FerreteriaBravo" class="project">
             <img
               class="ferrebravo"
               src="https://i.imgur.com/IyiFIic.png"
               alt="FerreBravo"
             />
-          </div>
+          </nuxt-link>
         </div>
 
-        <div class="project">
+        <nuxt-link to="/projects/CryptoExchange" class="project">
           <img
             class="crypto"
             src="https://i.imgur.com/gTrzdzs.png"
             alt="CryptoExchange"
           />
-        </div>
+        </nuxt-link>
       </div>
     </div>
     <Footer />
@@ -68,12 +68,13 @@ h1 {
   color: var(--textDark);
   font-weight: 400;
   margin: 3rem 0 0 3rem;
-  padding-left: 5rem;
+  text-align: center;
 }
-figure {
+.img-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15rem;
 }
 .project-img {
   display: flex;
@@ -91,5 +92,19 @@ figure {
 }
 .ferrebravo {
   margin-top: 2.5px;
+}
+.div {
+  display: flex;
+  flex-flow: column;
+}
+.project {
+  transition: all 300ms;
+  border-radius: 30px;
+}
+.project:hover {
+  transform: scale(1.03);
+}
+.projects {
+  margin-bottom: 15rem;
 }
 </style>
