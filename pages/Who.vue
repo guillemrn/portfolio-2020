@@ -29,6 +29,9 @@ export default {
     Navigation,
     Footer,
   },
+  head: {
+    title: '¿Quién soy?',
+  },
 }
 </script>
 

@@ -17,13 +17,13 @@
         </div>
 
         <div>
-          <div class="project">
+          <nuxt-link to="/projects/MemoBrown" class="project">
             <img
               class="memobrown"
               src="https://i.imgur.com/5JNMRGd.png"
               alt="MemoBrown"
             />
-          </div>
+          </nuxt-link>
 
           <div class="project">
             <img
@@ -54,6 +54,9 @@ export default {
   components: {
     Navigation,
     Footer,
+  },
+  head: {
+    title: 'Proyectos',
   },
 }
 </script>
