@@ -4,7 +4,9 @@
       <p>Code & Design By Guillermo</p>
     </div>
     <figure class="hand">
-      <img src="https://i.imgur.com/ZzkBAh3.png" alt="Hand" />
+      <a href="#header">
+        <img src="https://i.imgur.com/qNBCXXf.png" alt="Hand" />
+      </a>
     </figure>
     <div class="social">
       <a

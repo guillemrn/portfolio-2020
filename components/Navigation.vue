@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="header">
     <figure>
       <nuxt-link to="/"
         ><img

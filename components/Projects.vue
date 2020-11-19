@@ -7,7 +7,7 @@
       </figure>
 
       <div class="project-img">
-        <div class="project">
+        <nuxt-link to="/projects/FerreteriaBravo" class="project">
           <img src="https://i.imgur.com/VV0yNX6.png" alt="FerreBravo" />
           <div class="overlay">
             <figure class="img-project">
@@ -17,16 +17,16 @@
               />
             </figure>
           </div>
-        </div>
+        </nuxt-link>
 
-        <div class="project">
+        <nuxt-link to="/projects/Raypal" class="project">
           <img src="https://i.imgur.com/dhezHmX.png" alt="Raypal" />
           <div class="overlay">
             <figure class="img-project">
               <img src="https://i.imgur.com/IFGuDwg.png" alt="Raypal logo" />
             </figure>
           </div>
-        </div>
+        </nuxt-link>
       </div>
 
       <div class="rectangle"></div>
@@ -114,5 +114,9 @@
 .project {
   position: relative;
   width: 100%;
+  transition: all 300ms;
+}
+.project:hover {
+  transform: scale(1.03);
 }
 </style>
