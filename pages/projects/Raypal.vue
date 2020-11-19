@@ -3,10 +3,9 @@
     <navigation />
     <h1 class="title">Raypal AI Recycling</h1>
     <figure class="desktop">
-      <img src="https://i.imgur.com/EAXqsUJ.png" alt="Desktop raypal" />
+      <img src="https://i.imgur.com/Gseg8Lq.png" alt="Desktop raypal" />
     </figure>
     <figure class="img-decorate">
-      <img class="red" src="https://i.imgur.com/YcPEOFN.png" alt="" />
       <img class="teal" src="https://i.imgur.com/ljsxoed.png" alt="" />
     </figure>
     <div class="project-container">
@@ -114,14 +113,9 @@
   color: var(--textDark);
   font-size: 3rem;
 }
-.red,
 .teal {
   position: absolute;
   z-index: 0;
-}
-.red {
-  top: 40%;
-  left: 15%;
 }
 .teal {
   top: 250%;
