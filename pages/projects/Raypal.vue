@@ -1,16 +1,16 @@
 <template>
   <div>
     <navigation />
-    <h1 class="title">Raypal AI Recycling</h1>
+    <h1 class="title">{{ titlePage }}</h1>
     <figure class="desktop">
-      <img src="https://i.imgur.com/Gseg8Lq.png" alt="Desktop raypal" />
+      <img src="https://i.imgur.com/Gseg8Lq.png" :alt="titlePage" />
     </figure>
     <figure class="img-decorate">
       <img class="teal" src="https://i.imgur.com/ljsxoed.png" alt="" />
     </figure>
     <div class="project-container">
       <div>
-        <h1 class="project-title">Raypal AI Recycling</h1>
+        <h1 class="project-title">{{ titlePage }}</h1>
         <ul class="project-description">
           <p>
             Raypal recicla tu papel y recolecta a domicilio desde una caja,
@@ -21,12 +21,14 @@
           <li>Construído con HTML, CSS y JavaScript</li>
           <li>
             Sitio web:
-            <a href="https://raypal.com.mx"><em>raypal.com.mx</em></a>
+            <a href="https://raypal.com.mx" target="_blank"
+              ><em>raypal.com.mx</em></a
+            >
           </li>
         </ul>
       </div>
       <figure class="responsive">
-        <img src="https://i.imgur.com/LXowqED.png" alt="Raypal devices" />
+        <img src="https://i.imgur.com/LXowqED.png" :alt="titlePage" />
       </figure>
     </div>
     <div class="colors">
@@ -39,6 +41,25 @@
     <Footer />
   </div>
 </template>
+
+<script>
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
+export default {
+  components: {
+    Navigation,
+    Footer,
+  },
+  data() {
+    return {
+      titlePage: 'Raypal AI Recycling',
+    }
+  },
+  head: {
+    title: 'Raypal',
+  },
+}
+</script>
 
 <style scoped>
 .title {
