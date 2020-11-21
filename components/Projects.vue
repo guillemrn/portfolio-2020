@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container menu" data-animation="bonus">
     <nuxt-link to="/projects" class="title">Proyectos</nuxt-link>
     <div class="projects">
       <figure class="man">
@@ -8,7 +8,11 @@
 
       <div class="project-img">
         <nuxt-link to="/projects/FerreteriaBravo" class="project">
-          <img src="https://i.imgur.com/VV0yNX6.png" alt="FerreBravo" />
+          <img
+            class="img-hover"
+            src="https://i.imgur.com/VV0yNX6.png"
+            alt="FerreBravo"
+          />
           <div class="overlay">
             <figure class="img-project">
               <img
@@ -20,7 +24,11 @@
         </nuxt-link>
 
         <nuxt-link to="/projects/Raypal" class="project">
-          <img src="https://i.imgur.com/dhezHmX.png" alt="Raypal" />
+          <img
+            class="img-hover"
+            src="https://i.imgur.com/dhezHmX.png"
+            alt="Raypal"
+          />
           <div class="overlay">
             <figure class="img-project">
               <img src="https://i.imgur.com/IFGuDwg.png" alt="Raypal logo" />
@@ -114,9 +122,52 @@
 .project {
   position: relative;
   width: 100%;
-  transition: all 300ms;
 }
-.project:hover {
+.img-hover {
+  transition: all 300ms;
+  border-radius: 24px;
+}
+
+.project:hover .img-hover {
   transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgb(70, 69, 69);
+}
+.title:hover {
+  background: -webkit-linear-gradient(#1a3b34, #b3dfdf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.8s ease-in-out;
+}
+.menu .title {
+  position: relative;
+}
+
+.menu .title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 30rem;
+  width: 75%;
+  height: 2px;
+  background: linear-gradient(to right, #ffa5ad, #b3dfdf, #ffa5ad);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.8s ease-in-out;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.menu .title:hover::before {
+  transform: scaleX(1);
+}
+.menu[data-animation='bonus'] .title::before {
+  transform-origin: right;
+}
+
+.menu[data-animation='bonus'] .title:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
 }
 </style>

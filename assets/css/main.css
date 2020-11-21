@@ -21,6 +21,14 @@ html{
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+* {
+  box-sizing: border-box;
+  outline-color: var(--primary-lighter);
+}
+*::selection {
+  background-color: var(--primary-dark);
+  color: var(--textLight);
+}
 
 @font-face{
   font-family: ink-free;

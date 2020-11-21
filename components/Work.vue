@@ -35,18 +35,23 @@
 }
 button {
   background-color: var(--primary-color);
-  color: #fff;
-  font-family: var(--hero-buttons);
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: var(--body);
+  font-weight: 700;
   padding: 2rem 2rem;
   width: 333px;
   font-size: 2.5rem;
   border-radius: 20px;
   border: none;
   outline-color: var(--primary-lighter);
-  transition: all 300ms;
+  transition: all 0.2s ease;
 }
 button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   cursor: pointer;
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(255, 75, 92, 1);
+  transition: all 0.2s ease;
+  text-shadow: 1px 1px 6px #fff;
 }
 </style>

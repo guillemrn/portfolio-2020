@@ -2,7 +2,7 @@
   <div class="container">
     <div class="hero-title">
       <h1>Soy Guillermo Moreno<br />diseñador UI y <br />Desarrollador web</h1>
-      <button>Conoce mi trabajo</button>
+      <nuxt-link to="/projects" class="button">Conoce mi trabajo</nuxt-link>
     </div>
     <div>
       <div class="designBox"></div>
@@ -49,26 +49,31 @@
   margin-top: 15rem;
 }
 h1 {
-  font-family: var(--hero-buttons);
+  font-family: var(--body);
   color: var(--textDark);
   font-size: 5.5rem;
-  font-weight: 400;
+  font-weight: 700;
 }
-button {
+.button {
   background-color: var(--primary-color);
-  color: #fff;
-  font-family: var(--hero-buttons);
+  font-family: var(--body);
   padding: 2rem 6rem;
   font-size: 2.5rem;
   border-radius: 20px;
   border: none;
-  outline-color: var(--primary-lighter);
-  transition: all 300ms;
+  transition: all 0.2s ease;
   width: fit-content;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
-button:hover {
-  background-color: var(--secondary-color);
+.button:hover {
+  background-color: var(--primary-color);
   cursor: pointer;
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(255, 75, 92, 1);
+  transition: all 0.2s ease;
+  text-shadow: 1px 1px 6px #fff;
 }
 .diamond,
 .red-circle,
