@@ -3,7 +3,7 @@
     <nuxt-link to="/projects" class="title">Proyectos</nuxt-link>
     <div class="projects">
       <figure class="man">
-        <img src="https://i.imgur.com/o0XvBOn.png" alt="Man" />
+        <img src="https://i.imgur.com/QCThjnM.png" alt="Man" />
       </figure>
 
       <div class="project-img">
@@ -36,13 +36,8 @@
           </div>
         </nuxt-link>
       </div>
-
-      <div class="rectangle"></div>
-      <figure class="red-circle">
-        <img src="https://i.imgur.com/uF3mB3u.png" alt="" />
-      </figure>
       <figure class="half-cirlce">
-        <img src="https://i.imgur.com/t0XAQAC.png" alt="" />
+        <img src="https://i.imgur.com/uNIsH4S.png" alt="" />
       </figure>
       <figure class="lines">
         <img src="https://i.imgur.com/IWHmhmD.png" alt="" />
@@ -52,27 +47,19 @@
 </template>
 
 <style scoped>
-.rectangle {
-  width: 15%;
-  height: 100vh;
-  background-color: var(--darkTheme);
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
 .man img {
   position: relative;
   z-index: 1;
-  left: -15rem;
+  /* padding-left: 8rem; */
   top: 7rem;
-  transform: scale(1.1);
+  /* transform: scale(1.3); */
 }
 .title {
   font-size: 14rem;
   font-family: var(--titles);
   color: var(--textDark);
   text-align: end;
-  padding-left: 30rem;
+  padding-left: 12.3rem;
   font-weight: 400;
   margin: 0;
   text-decoration: none;
@@ -85,18 +72,17 @@
 .project-img img {
   margin: 1rem;
 }
-.red-circle,
-.half-cirlce,
+
 .lines {
   position: absolute;
   left: 0;
 }
-.red-circle {
-  top: 105%;
-}
 .half-cirlce {
+  position: absolute;
   top: 118%;
   padding-left: 8rem;
+  right: 0;
+  z-index: 0;
 }
 .overlay {
   position: absolute;
@@ -118,6 +104,8 @@
 }
 .project-img {
   display: flex;
+  position: relative;
+  z-index: 1;
 }
 .project {
   position: relative;
@@ -146,8 +134,8 @@
   content: '';
   position: absolute;
   bottom: 0;
-  left: 30rem;
-  width: 75%;
+  /* left: 30rem; */
+  width: 90%;
   height: 2px;
   background: linear-gradient(to right, #ffa5ad, #b3dfdf, #ffa5ad);
   z-index: 1;

@@ -64,7 +64,8 @@
 }
 .circle {
   position: absolute;
-  top: 360%;
+  top: 380%;
+  transform: scale(1.3);
 }
 .title {
   font-size: 14rem;
@@ -101,8 +102,8 @@ p {
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   overflow: hidden;
   top: 0;
   right: 0;
@@ -128,7 +129,7 @@ p {
   width: 60rem;
   height: 20rem;
   background-color: var(--secondary-color);
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 32px 24px;
   margin: 12px;
   text-decoration: none;

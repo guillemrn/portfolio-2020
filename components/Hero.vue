@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="hero-title">
-      <h1>Soy Guillermo Moreno<br />diseñador UI y <br />Desarrollador web</h1>
-      <nuxt-link to="/projects" class="button">Conoce mi trabajo</nuxt-link>
+      <h1>{{ $t('title') }}</h1>
+      <nuxt-link to="/projects" class="button">{{ $t('know') }}</nuxt-link>
     </div>
     <div>
       <div class="designBox"></div>
@@ -93,3 +93,12 @@ h1 {
   top: 80%;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  know: 'Know my work'
+  title: "I'm Guillermo Moreno UI Designer and Frontend developer"
+es:
+  hello: 'Conoce mi trabajo'
+  title: 'Soy Guillermo Moreno diseñador UI y Desarrollador web'
+</i18n>
