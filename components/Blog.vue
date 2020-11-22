@@ -1,8 +1,8 @@
 <template>
   <div class="menu" data-animation="bonus">
-    <a href="https://blog.memobrown.com" target="_blank">
-      <h1 class="title">Blog</h1>
-    </a>
+    <h1 href="https://blog.memobrown.com" target="_blank">
+      <a class="title">Blog</a>
+    </h1>
     <div class="blog-container">
       <figure class="man-reading slide">
         <img src="https://i.imgur.com/6IIRlAv.png" alt="man reading" />
@@ -12,10 +12,9 @@
       </figure>
       <div class="cards">
         <a class="card1" href="#">
-          <h3>Como dibujar a Rick Sanchez en puro CSS</h3>
+          <h3>{{ $t('rick') }}</h3>
           <p class="small">
-            Hace unos meses navegando por internet descubrí que se pueden crear
-            dibujos con solo CSS, y quede maravillado. Encontre obras de arte...
+            {{ $t('text') }}
           </p>
           <div class="go-corner" href="#">
             <div class="go-arrow">→</div>
@@ -23,10 +22,9 @@
         </a>
 
         <a class="card1" href="#">
-          <h3>25 Recomendaciones para ver en esta cuarentena 📽</h3>
+          <h3>{{ $t('recomm') }}</h3>
           <p class="small">
-            En esta cuarentena que muchos están en casa y ya no saben que hacer,
-            te quiero dar 25 opciones para que veas y calmes ese aburrimiento...
+            {{ $t('movies') }}
           </p>
           <div class="go-corner" href="#">
             <div class="go-arrow">→</div>
@@ -77,6 +75,7 @@
   margin: 0;
   text-decoration: none;
   width: fit-content;
+  cursor: pointer;
 }
 .blog-container {
   display: flex;
@@ -206,3 +205,20 @@ a {
   text-decoration: none;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  rick: 'How to draw Rick Sanchez in pure CSS'
+  text: 'A few months ago surfing the Internet I
+    discovered that you can create drawings only with CSS,
+    and I was surprised. I found works of art ...'
+  recomm: '25 recommendations to see this quarantine 📽'
+  movies: 'Bored this quarantine? Here are some recommendations to see ...'
+es:
+  rick: 'Como dibujar a Rick Sanchez en puro CSS'
+  text: 'Hace unos meses navegando por internet descubrí
+    que se pueden crear dibujos con solo CSS, y quede
+    maravillado. Encontre obras de arte...'
+  recomm: '25 recomendaciones para ver esta cuarentena 📽'
+  movies: '¿Aburrido esta cuarentena? Aquí hay algunas recomendaciones para ver ...'
+</i18n>

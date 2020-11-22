@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <p>Code & Design By MemoBrown</p>
+      <p>{{ $t('memobrown') }}</p>
     </div>
     <figure class="hand">
       <a href="#header">
@@ -48,8 +48,27 @@
         <div class="icon-mail"></div>
       </a>
     </div>
+    <div class="page-options">
+      <nuxt-link
+        v-for="locale in availableLocales"
+        :key="locale.code"
+        class="locale-lang"
+        :to="switchLocalePath(locale.code)"
+        ><img src="https://i.imgur.com/2jclTB3.png" alt=""
+      /></nuxt-link>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    },
+  },
+}
+</script>
 
 <style scoped>
 .container {
@@ -62,6 +81,12 @@ p {
   font-family: var(--titles);
   color: var(--primary-color);
   font-weight: 400;
+}
+.hand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
 .hand img {
   width: 22rem;
@@ -80,4 +105,27 @@ p {
 .social-icon:hover {
   color: var(--primary-lighter);
 }
+.locale-lang {
+  font-family: var(--body);
+  text-decoration: none;
+  color: var(--textDark);
+  text-align: center;
+}
+.locale-lang img {
+  width: 4rem;
+  height: 4rem;
+}
+.page-options {
+  position: absolute;
+  margin-top: 15rem;
+  right: 0;
+  padding: 3rem;
+}
 </style>
+
+<i18n lang="yaml">
+en:
+  memobrown: 'Code & Design By MemoBrown'
+es:
+  memobrown: 'Código y Diseño por MemoBrown'
+</i18n>

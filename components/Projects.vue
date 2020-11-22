@@ -1,6 +1,6 @@
 <template>
   <div class="container menu" data-animation="bonus">
-    <nuxt-link to="/projects" class="title">Proyectos</nuxt-link>
+    <nuxt-link to="/projects" class="title">{{ $t('projects') }}</nuxt-link>
     <div class="projects">
       <figure class="man">
         <img src="https://i.imgur.com/QCThjnM.png" alt="Man" />
@@ -159,3 +159,10 @@
   transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  projects: 'Projects'
+es:
+  projects: 'Proyectos'
+</i18n>

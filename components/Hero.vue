@@ -53,6 +53,7 @@ h1 {
   color: var(--textDark);
   font-size: 5.5rem;
   font-weight: 700;
+  margin-left: 8rem;
 }
 .button {
   background-color: var(--primary-color);
@@ -66,6 +67,7 @@ h1 {
   font-weight: 700;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9) !important;
+  margin-left: 8rem;
 }
 .button:hover {
   background-color: var(--primary-color);
@@ -99,6 +101,6 @@ en:
   know: 'Know my work'
   title: "I'm Guillermo Moreno UI Designer and Frontend developer"
 es:
-  hello: 'Conoce mi trabajo'
+  know: 'Conoce mi trabajo'
   title: 'Soy Guillermo Moreno diseñador UI y Desarrollador web'
 </i18n>

@@ -1,13 +1,12 @@
 <template>
   <div class="container">
     <div>
-      <h1>Trabajemos<br />Juntos</h1>
+      <h1>{{ $t('work') }}</h1>
       <p>
-        Tienes algún proyecto en mente, llevemoslo al mundo digital. Me
-        encantaría conocerte y que trabajemos juntos.
+        {{ $t('p') }}
       </p>
       <a href="mailto:contatc@memobrown.com">
-        <button>¡Vamos!</button>
+        <button>{{ $t('cta') }}</button>
       </a>
     </div>
     <figure class="">
@@ -61,3 +60,14 @@ button:hover {
   text-shadow: 1px 1px 6px #fff;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  work: "Let's Work Together"
+  p: "You have a project in mind, let's take it to the digital world. I would love to meet you and work together."
+  cta: "Let's Go!"
+es:
+  work: 'Trabajemos Juntos'
+  p: 'Tienes un proyecto en mente, llevémoslo al mundo digital. Me encantaría conocerte y trabajar juntos.'
+  cta: '¡Vamos!'
+</i18n>
