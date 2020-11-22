@@ -1,10 +1,10 @@
 <template>
   <div class="menu" data-animation="bonus">
-    <a href="#">
+    <a href="https://blog.memobrown.com" target="_blank">
       <h1 class="title">Blog</h1>
     </a>
     <div class="blog-container">
-      <figure class="man-reading">
+      <figure class="man-reading slide">
         <img src="https://i.imgur.com/6IIRlAv.png" alt="man reading" />
       </figure>
       <figure>
@@ -41,6 +41,27 @@
 .man-reading {
   padding-left: 4rem;
 }
+.man-reading {
+  animation-duration: 2.3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+.slide {
+  animation-name: slide;
+  animation-duration: 2s;
+}
 .circle {
   position: absolute;
   top: 360%;
@@ -54,6 +75,7 @@
   font-weight: 400;
   margin: 0;
   text-decoration: none;
+  width: fit-content;
 }
 .blog-container {
   display: flex;
@@ -156,7 +178,7 @@ p {
   content: '';
   position: absolute;
   bottom: 0;
-  width: 22%;
+  width: 80%;
   height: 2px;
   background: linear-gradient(to right, #ffa5ad, #b3dfdf, #ffa5ad);
   z-index: 1;

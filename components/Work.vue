@@ -10,7 +10,7 @@
         <button>¡Vamos!</button>
       </a>
     </div>
-    <figure>
+    <figure class="">
       <img src="https://i.imgur.com/ySMr04w.png" alt="" />
     </figure>
   </div>

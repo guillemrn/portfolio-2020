@@ -11,7 +11,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'https://i.imgur.com/j5AJA7w.png',
+        href: 'https://i.imgur.com/dsX64J3.png',
       },
       {
         rel: 'preconnect',
