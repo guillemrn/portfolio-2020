@@ -31,7 +31,7 @@
 .boy img {
   position: relative;
   z-index: 1;
-  bottom: 15rem;
+  bottom: 22rem;
   transform: scale(1.1);
 }
 .designBox {

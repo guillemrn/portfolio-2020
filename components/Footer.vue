@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <p>Code & Design By Guillermo</p>
+      <p>Code & Design By MemoBrown</p>
     </div>
     <figure class="hand">
       <a href="#header">

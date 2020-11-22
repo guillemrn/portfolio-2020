@@ -6,7 +6,9 @@
         Tienes algún proyecto en mente, llevemoslo al mundo digital. Me
         encantaría conocerte y que trabajemos juntos.
       </p>
-      <button>¡Vamos!</button>
+      <a href="mailto:contatc@memobrown.com">
+        <button>¡Vamos!</button>
+      </a>
     </div>
     <figure>
       <img src="https://i.imgur.com/ySMr04w.png" alt="" />
@@ -45,6 +47,10 @@ button {
   border: none;
   outline-color: var(--primary-lighter);
   transition: all 0.2s ease;
+}
+button a {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-decoration: none;
 }
 button:hover {
   background-color: var(--primary-color);

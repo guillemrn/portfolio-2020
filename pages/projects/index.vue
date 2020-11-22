@@ -1,5 +1,6 @@
 <template>
   <div>
+    <cube :loading="isLoading" :color="'#68d391'" :size="100"></cube>
     <navigation />
     <h1>Proyectos</h1>
     <figure class="img-container">
@@ -10,7 +11,7 @@
       <div class="project-img">
         <nuxt-link to="/projects/Raypal" class="project">
           <img
-            class="raypal"
+            class="raypal img-hover"
             src="https://i.imgur.com/BYtWpA6.png"
             alt="Raypal"
           />
@@ -19,7 +20,7 @@
         <div class="div">
           <nuxt-link to="/projects/MemoBrown" class="project">
             <img
-              class="memobrown"
+              class="memobrown img-hover"
               src="https://i.imgur.com/5JNMRGd.png"
               alt="MemoBrown"
             />
@@ -27,7 +28,7 @@
 
           <nuxt-link to="/projects/FerreteriaBravo" class="project">
             <img
-              class="ferrebravo"
+              class="ferrebravo img-hover"
               src="https://i.imgur.com/IyiFIic.png"
               alt="FerreBravo"
             />
@@ -36,7 +37,7 @@
 
         <nuxt-link to="/projects/CryptoExchange" class="project">
           <img
-            class="crypto"
+            class="crypto img-hover"
             src="https://i.imgur.com/gTrzdzs.png"
             alt="CryptoExchange"
           />
@@ -100,6 +101,14 @@ h1 {
 .project {
   transition: all 300ms;
   border-radius: 30px;
+}
+.img-hover {
+  transition: all 300ms;
+  border-radius: 24px;
+}
+.project:hover .img-hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgb(70, 69, 69);
 }
 .project:hover {
   transform: scale(1.03);

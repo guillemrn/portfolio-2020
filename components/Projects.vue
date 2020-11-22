@@ -64,7 +64,7 @@
   position: relative;
   z-index: 1;
   left: -15rem;
-  top: 10rem;
+  top: 7rem;
   transform: scale(1.1);
 }
 .title {
