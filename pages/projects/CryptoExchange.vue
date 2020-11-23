@@ -31,12 +31,22 @@
         <img src="https://i.imgur.com/7iA4RGD.png" :alt="titlePage" />
       </figure>
     </div>
-    <div class="colors">
-      <div class="color-1"><p>#68d391</p></div>
-      <div class="color-2"><p>#2f855a</p></div>
-      <div class="color-3"><p>#ffa500</p></div>
-      <div class="color-4"><p>#718096</p></div>
-      <div class="color-5"><p>#e2e8f0</p></div>
+    <div class="color-container">
+      <nuxt-link to="/projects/FerreteriaBravo" class="arrow">
+        <img src="https://i.imgur.com/siIqyoM.png" alt="Left Arrow" />
+        <p>Proyecto Anterior</p>
+      </nuxt-link>
+      <div class="colors">
+        <div class="color-1"><p>#68d391</p></div>
+        <div class="color-2"><p>#2f855a</p></div>
+        <div class="color-3"><p>#ffa500</p></div>
+        <div class="color-4"><p>#718096</p></div>
+        <div class="color-5"><p>#e2e8f0</p></div>
+      </div>
+      <nuxt-link to="/projects/Raypal" class="arrow">
+        <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
+        <p>Proyecto Siguiente</p>
+      </nuxt-link>
     </div>
     <Footer />
   </div>
@@ -62,6 +72,30 @@ export default {
 </script>
 
 <style scoped>
+.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow {
+  margin: 0 4rem 5rem 4rem;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.arrow p {
+  font-family: var(--body);
+  font-size: 2rem;
+  color: var(--textDark);
+  font-weight: bold;
+  text-align: center;
+  transition: all 300ms;
+}
+.arrow p:hover {
+  color: var(--primary-color);
+}
 .title {
   font-family: var(--titles);
   font-size: 6.7rem;

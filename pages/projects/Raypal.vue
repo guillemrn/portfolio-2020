@@ -32,7 +32,7 @@
       </figure>
     </div>
     <div class="color-container">
-      <nuxt-link to="/" class="arrow">
+      <nuxt-link to="/projects/CryptoExchange" class="arrow">
         <img src="https://i.imgur.com/siIqyoM.png" alt="Left Arrow" />
         <p>Proyecto Anterior</p>
       </nuxt-link>
@@ -43,7 +43,7 @@
         <div class="color-4"><p>#7bc600</p></div>
         <div class="color-5"><p>#f8fcf2</p></div>
       </div>
-      <nuxt-link to="/" class="arrow">
+      <nuxt-link to="/projects/MemoBrown" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
         <p>Proyecto Siguiente</p>
       </nuxt-link>
