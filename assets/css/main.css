@@ -1,13 +1,10 @@
 :root{
   --primary-color: #FF4B5C;
   --primary-lighter: #FFA5AD;
-  --primary-dark: #FF5D6C;
   --secondary-color: #056674;
   --secondary-lighter: #82B3BA;
-  --secondary-dark: #1E7582;
   --third-color: #66BFBF;
   --third-lighter: #B3DFDF;
-  --third-dark: #75C5C5;
   --darkTheme: #1F2E35;
   --lightTheme: #F2FCFF;
   --textDark: #1A3B34;
@@ -15,6 +12,19 @@
   --body: 'Advent Pro', sans-serif;
   --hero-buttons: 'Fredoka One', cursive;
   --titles: 'Major Mono Display', monospace;
+}
+
+.dark-mode {
+  --primary-color: #FF5D6C;
+  --primary-lighter: #FFA5AD;
+  --secondary-color: #1E7582;
+  --secondary-lighter: #82B3BA;
+  --third-color: #75C5C5;
+  --third-lighter: #B3DFDF;
+  --darkTheme: #F2FCFF;
+  --lightTheme: #1F2E35;
+  --textDark: #F9FEFF;
+  --textLight: #1A3B34;
 }
 
 html{

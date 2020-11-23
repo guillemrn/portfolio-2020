@@ -107,7 +107,7 @@ export default {
   margin: 0;
   margin-top: 2rem;
   padding-top: 10rem;
-  color: var(--secondary-color);
+  color: var(--textDark);
 }
 .color-1 {
   background-color: #68d391;

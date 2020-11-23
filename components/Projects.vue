@@ -37,7 +37,7 @@
         </nuxt-link>
       </div>
       <figure class="half-cirlce">
-        <img src="https://i.imgur.com/uNIsH4S.png" alt="" />
+        <img src="@/assets/images/half-circle.svg" alt="" />
       </figure>
       <figure class="lines">
         <img src="https://i.imgur.com/IWHmhmD.png" alt="" />
@@ -157,6 +157,9 @@
   transform-origin: left;
   transform: scaleX(1);
   transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+.mmm {
+  color: var(--darkTheme);
 }
 </style>
 

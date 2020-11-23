@@ -49,6 +49,7 @@
       </a>
     </div>
     <div class="page-options">
+      <ColorModePicker />
       <nuxt-link
         v-for="locale in availableLocales"
         :key="locale.code"
@@ -61,7 +62,12 @@
 </template>
 
 <script>
+import ColorModePicker from '@/components/ColorModePicker'
+
 export default {
+  components: {
+    ColorModePicker,
+  },
   computed: {
     availableLocales() {
       return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
@@ -114,12 +120,20 @@ p {
 .locale-lang img {
   width: 4rem;
   height: 4rem;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.locale-lang img:hover {
+  top: -3px;
 }
 .page-options {
   position: absolute;
   margin-top: 15rem;
   right: 0;
   padding: 3rem;
+  display: flex;
+  align-items: center;
 }
 </style>
 

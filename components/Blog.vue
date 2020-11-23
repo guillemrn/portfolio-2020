@@ -113,7 +113,7 @@ p {
 .go-arrow {
   margin-top: -4px;
   margin-right: -4px;
-  color: var(--secondary-color);
+  color: var(--textDark);
   font-size: 2.5rem;
   font-weight: bold;
   font-family: var(--titles);
@@ -127,14 +127,14 @@ p {
   position: relative;
   width: 60rem;
   height: 20rem;
-  background-color: var(--secondary-color);
+  background-color: var(--darkTheme);
   border-radius: 20px;
   padding: 32px 24px;
   margin: 12px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  border: 2px solid var(--secondary-color);
+  border: 2px solid var(--darkTheme);
   margin-right: 20rem;
   font-family: var(--body);
 }
@@ -158,11 +158,11 @@ p {
 }
 .card1:hover h3 {
   transition: all 0.3s ease-out;
-  color: var(--secondary-color);
+  color: var(--textDark);
 }
 .card1:hover p {
   transition: all 0.3s ease-out;
-  color: var(--secondary-color);
+  color: var(--textDark);
 }
 .title:hover {
   background: -webkit-linear-gradient(#1a3b34, #b3dfdf);
