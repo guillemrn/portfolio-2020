@@ -169,8 +169,8 @@
 .menu-wrap .menu > div {
   background: var(--darkTheme);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 270vw;
+  height: 270vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -195,6 +195,9 @@
   transition: all 300ms;
   text-transform: uppercase;
 }
+ul {
+  padding-left: 0;
+}
 
 .menu-wrap .menu > div > div > ul > li:hover {
   color: var(--primary-lighter);
@@ -205,6 +208,33 @@
   color: inherit;
   text-decoration: none;
   transition: color 0.4s ease;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 376px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }
 </style>
 

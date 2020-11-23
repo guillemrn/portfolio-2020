@@ -69,6 +69,8 @@ h1 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9) !important;
   margin-left: 8rem;
+  position: relative;
+  z-index: 1;
 }
 .button:hover {
   background-color: var(--primary-color);
@@ -94,6 +96,30 @@ h1 {
 .dark-circle {
   left: 0;
   top: 65%;
+  z-index: 0;
+}
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 376px) {
+}
+
+@media screen and (max-width: 320px) {
 }
 </style>
 

@@ -1,21 +1,21 @@
 <template>
   <div>
     <navigation />
-    <hero />
-    <projects />
+    <!-- <hero /> -->
+    <!-- <projects />
     <work />
     <blog />
-    <Footer />
+    <Footer /> -->
   </div>
 </template>
 
 <script>
 import Navigation from '@/components/Navigation'
-import Footer from '@/components/Footer'
+// import Footer from '@/components/Footer'
 export default {
   components: {
     Navigation,
-    Footer,
+    // Footer,
   },
 }
 </script>
