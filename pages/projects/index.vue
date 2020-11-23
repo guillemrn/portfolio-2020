@@ -4,7 +4,7 @@
     <navigation />
     <h1>{{ $t('h1') }}</h1>
     <figure class="img-container">
-      <img src="https://i.imgur.com/xFwvB6k.png" alt="Man working" />
+      <img src="https://i.imgur.com/Kl83q6q.png" alt="Man working" />
     </figure>
 
     <div class="projects">

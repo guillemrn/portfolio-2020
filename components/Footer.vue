@@ -134,6 +134,7 @@ p {
   padding: 3rem;
   display: flex;
   align-items: center;
+  margin-right: 10rem;
 }
 </style>
 

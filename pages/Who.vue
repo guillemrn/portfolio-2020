@@ -13,9 +13,9 @@
           </p>
         </div>
       </figure>
-      <div class="rectangle">
-        <img src="https://i.imgur.com/fdvibda.png" alt="" />
-      </div>
+      <figure class="rectangle">
+        <img src="https://i.imgur.com/iAbxhMQ.png" alt="" />
+      </figure>
     </div>
     <Footer />
   </div>
@@ -37,8 +37,8 @@ export default {
 
 <style scoped>
 .rectangle {
-  background-color: var(--darkTheme);
-  width: 100%;
+  /* background-color: var(--darkTheme); */
+  width: 90%;
   height: 50%;
   position: absolute;
   z-index: 0;
@@ -51,11 +51,13 @@ h1 {
   font-size: 6.7rem;
   font-family: ink-free;
   transform: rotate(-3.95deg);
+  color: var(--textDark);
 }
 p {
   font-size: 2.4rem;
   font-family: ink-free;
   transform: rotate(-3.95deg);
+  color: var(--textDark);
 }
 figure {
   display: flex;

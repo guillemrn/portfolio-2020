@@ -8,7 +8,7 @@
         <img src="https://i.imgur.com/6IIRlAv.png" alt="man reading" />
       </figure>
       <figure>
-        <img class="circle" src="https://i.imgur.com/SB4WlF6.png" alt="" />
+        <img class="circle" src="https://i.imgur.com/4Hd72f0.png" alt="" />
       </figure>
       <div class="cards">
         <a class="card1" href="#">

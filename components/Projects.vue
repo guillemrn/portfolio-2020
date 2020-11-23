@@ -37,7 +37,7 @@
         </nuxt-link>
       </div>
       <figure class="half-cirlce">
-        <img src="@/assets/images/half-circle.svg" alt="" />
+        <img src="https://i.imgur.com/EK0mNhf.png" alt="" />
       </figure>
       <figure class="lines">
         <img src="https://i.imgur.com/IWHmhmD.png" alt="" />

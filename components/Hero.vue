@@ -10,13 +10,13 @@
         <img src="https://i.imgur.com/VZZoC1O.png" alt="Boy on a computer" />
       </figure>
       <figure class="diamond">
-        <img src="https://i.imgur.com/Qjt8s2v.png" alt="" />
+        <img src="https://i.imgur.com/QVM3Spr.png" alt="" />
       </figure>
       <figure class="red-circle">
         <img src="https://i.imgur.com/LMNeZPB.png" alt="" />
       </figure>
       <figure class="dark-circle">
-        <img src="https://i.imgur.com/GYl9AzW.png" alt="" />
+        <img src="https://i.imgur.com/awgyJW3.png" alt="" />
       </figure>
     </div>
   </div>
@@ -93,7 +93,7 @@ h1 {
 }
 .dark-circle {
   left: 0;
-  top: 80%;
+  top: 65%;
 }
 </style>
 

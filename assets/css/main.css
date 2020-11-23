@@ -47,4 +47,5 @@ html{
 
 body {
   background-color: var(--lightTheme);
+  transition: background-color 0.3s;
 }
