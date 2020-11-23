@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      colors: ['system', 'light', 'dark'],
+      colors: ['light', 'dark'],
     }
   },
   methods: {
@@ -64,9 +64,9 @@ p {
   transition: all 0.1s ease;
   background-color: var(--lightTheme);
   border: 2px solid var(--primary-color);
-  width: 40px;
-  height: 40px;
-  color: var(--darkTheme);
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--primary-color);
 }
 .feather:hover {
   top: -3px;
@@ -76,6 +76,6 @@ p {
   top: -3px;
 }
 .feather.selected {
-  color: var(--primary-color);
+  color: var(--darkTheme);
 }
 </style>

@@ -63,6 +63,7 @@
   font-weight: 400;
   margin: 0;
   text-decoration: none;
+  transition: all 300ms;
 }
 .projects {
   display: flex;
@@ -121,10 +122,7 @@
   box-shadow: 4px 4px 10px rgb(70, 69, 69);
 }
 .title:hover {
-  background: -webkit-linear-gradient(#1a3b34, #b3dfdf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: transform 0.8s ease-in-out;
+  color: var(--primary-lighter);
 }
 .menu .title {
   position: relative;

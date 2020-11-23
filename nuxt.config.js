@@ -60,13 +60,12 @@ export default {
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      onlyOnRoot: true,
     },
-    defaultLocale: 'en',
+    defaultLocale: 'es',
     lazy: true,
     vueI18nLoader: true,
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'es',
     },
   },
 

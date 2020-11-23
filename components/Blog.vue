@@ -1,7 +1,9 @@
 <template>
   <div class="menu" data-animation="bonus">
-    <h1 href="https://blog.memobrown.com" target="_blank">
-      <a class="title">Blog</a>
+    <h1>
+      <a class="title" href="https://blog.memobrown.com" target="_blank"
+        >Blog</a
+      >
     </h1>
     <div class="blog-container">
       <figure class="man-reading slide">
@@ -76,6 +78,7 @@
   text-decoration: none;
   width: fit-content;
   cursor: pointer;
+  transition: all 300ms;
 }
 .blog-container {
   display: flex;
@@ -165,10 +168,7 @@ p {
   color: var(--textDark);
 }
 .title:hover {
-  background: -webkit-linear-gradient(#1a3b34, #b3dfdf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: transform 0.8s ease-in-out;
+  color: var(--primary-lighter);
 }
 .menu .title {
   position: relative;

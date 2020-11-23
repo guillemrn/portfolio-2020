@@ -118,8 +118,8 @@ p {
   text-align: center;
 }
 .locale-lang img {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   position: relative;
   top: 0;
   transition: all 0.1s ease;
