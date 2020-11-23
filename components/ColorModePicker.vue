@@ -15,7 +15,6 @@
 <script>
 import IconLight from '@/assets/icons/light.svg?inline'
 import IconDark from '@/assets/icons/dark.svg?inline'
-
 export default {
   components: {
     IconLight,

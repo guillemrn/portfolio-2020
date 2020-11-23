@@ -31,12 +31,22 @@
         <img src="https://i.imgur.com/LXowqED.png" :alt="titlePage" />
       </figure>
     </div>
-    <div class="colors">
-      <div class="color-1"><p>#299767</p></div>
-      <div class="color-2"><p>#39c38d</p></div>
-      <div class="color-3"><p>#8ac371</p></div>
-      <div class="color-4"><p>#7bc600</p></div>
-      <div class="color-5"><p>#f8fcf2</p></div>
+    <div class="color-container">
+      <nuxt-link to="/" class="arrow">
+        <img src="https://i.imgur.com/siIqyoM.png" alt="Left Arrow" />
+        <p>Proyecto Anterior</p>
+      </nuxt-link>
+      <div class="colors">
+        <div class="color-1"><p>#299767</p></div>
+        <div class="color-2"><p>#39c38d</p></div>
+        <div class="color-3"><p>#8ac371</p></div>
+        <div class="color-4"><p>#7bc600</p></div>
+        <div class="color-5"><p>#f8fcf2</p></div>
+      </div>
+      <nuxt-link to="/" class="arrow">
+        <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
+        <p>Proyecto Siguiente</p>
+      </nuxt-link>
     </div>
     <Footer />
   </div>
@@ -62,6 +72,25 @@ export default {
 </script>
 
 <style scoped>
+.arrow {
+  margin: 0 4rem 5rem 4rem;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.arrow p {
+  font-family: var(--body);
+  font-size: 2rem;
+  color: var(--textDark);
+  font-weight: bold;
+  text-align: center;
+  transition: all 300ms;
+}
+.arrow p:hover {
+  color: var(--primary-color);
+}
 .title {
   font-family: var(--titles);
   font-size: 6.7rem;
@@ -150,5 +179,10 @@ li a {
 li a:hover {
   color: var(--primary-lighter);
   text-decoration: underline;
+}
+.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 </style>

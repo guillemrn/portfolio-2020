@@ -57,6 +57,11 @@ export default {
         iso: 'es-MX',
       },
     ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true,
+    },
     defaultLocale: 'en',
     lazy: true,
     vueI18nLoader: true,

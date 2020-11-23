@@ -36,7 +36,7 @@ html{
   outline-color: var(--primary-lighter);
 }
 *::selection {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-color);
   color: var(--textLight);
 }
 

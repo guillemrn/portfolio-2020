@@ -55,7 +55,7 @@
         :key="locale.code"
         class="locale-lang"
         :to="switchLocalePath(locale.code)"
-        ><img src="https://i.imgur.com/2jclTB3.png" alt=""
+        ><img src="https://i.imgur.com/OKICklz.png" alt="Icon Translate"
       /></nuxt-link>
     </div>
   </div>
