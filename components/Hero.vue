@@ -47,6 +47,7 @@
   flex-flow: column;
   align-self: start;
   margin-top: 15rem;
+  padding-right: 3rem;
 }
 h1 {
   font-family: var(--body);

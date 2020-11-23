@@ -13,16 +13,13 @@
         <h1 class="project-title">{{ titlePage }}</h1>
         <ul class="project-description">
           <p>
-            Ferretería Bravo es una empresa dinámica con espíritu de servicio,
-            establecida en la ciudad de Guadalajara, Jalisco. Con más de 17 años
-            de experiencia en la comercialización al menudeo y mayoreo de
-            productos de Ferretería
+            {{ $t('desc') }}
           </p>
-          <li>Fecha: Noviembre 2020</li>
+          <li>{{ $t('date') }}</li>
           <li>Responsive Design</li>
-          <li>Construído en Shopify</li>
+          <li>{{ $t('built') }}</li>
           <li>
-            Sitio web:
+            {{ $t('web') }}
             <a href="https://ferrebravo.com" target="_blank"
               ><em>ferrebravo.com</em></a
             >
@@ -36,7 +33,7 @@
     <div class="color-container">
       <nuxt-link to="/projects/MemoBrown" class="arrow">
         <img src="https://i.imgur.com/siIqyoM.png" alt="Left Arrow" />
-        <p>Proyecto Anterior</p>
+        <p>{{ $t('previous') }}</p>
       </nuxt-link>
       <div class="colors">
         <div class="color-1"><p>#a12810</p></div>
@@ -47,7 +44,7 @@
       </div>
       <nuxt-link to="/projects/CryptoExchange" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
-        <p>Proyecto Siguiente</p>
+        <p>{{ $t('next') }}</p>
       </nuxt-link>
     </div>
     <Footer />
@@ -96,7 +93,7 @@ export default {
   transition: all 300ms;
 }
 .arrow p:hover {
-  color: var(--primary-color);
+  color: var(--primary-lighter);
 }
 .title {
   font-family: var(--titles);
@@ -188,3 +185,27 @@ li a:hover {
   text-decoration: underline;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  desc: 'Ferretería Bravo is a dynamic company
+    with a spirit of service, established in the
+    city of Guadalajara, Jalisco. With more than
+    17 years of experience in the retail and wholesale
+    marketing of hardware products'
+  date: 'Date: November 2020'
+  built: 'Built with Shopify'
+  web: 'Website'
+  previous: 'Previous Project'
+  next: 'Next Project'
+es:
+  desc: 'Ferretería Bravo es una empresa dinámica con espíritu de servicio,
+    establecida en la ciudad de Guadalajara, Jalisco. Con más de 17 años
+    de experiencia en la comercialización al menudeo y mayoreo de
+    productos de Ferretería'
+  date: 'Fecha: Noviembre 2020'
+  built: 'Construído con Shopify'
+  web: 'Sitio web'
+  previous: 'Proyecto Anterior'
+  next: 'Proyecto Siguiente'
+</i18n>

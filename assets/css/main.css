@@ -36,8 +36,8 @@ html{
   outline-color: var(--primary-lighter);
 }
 *::selection {
-  background-color: var(--primary-color);
-  color: var(--textLight);
+  background-color: #FF5D6C;
+  color:  #F9FEFF;
 }
 
 @font-face{

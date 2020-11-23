@@ -13,14 +13,13 @@
         <h1 class="project-title">{{ titlePage }}</h1>
         <ul class="project-description">
           <p>
-            Sitio web, principalmente utilizado para mostrar mis trabajos
-            realizados.
+            {{ $t('desc') }}
           </p>
-          <li>Fecha: Septiembre 2020</li>
+          <li>{{ $t('date') }}</li>
           <li>Responsive Design</li>
-          <li>Construído con HTML, CSS y JavaScript</li>
+          <li>{{ $t('built') }}</li>
           <li>
-            Sitio web:
+            {{ $t('web') }}
             <a href="https://guillermo-moreno.netlify.app/" target="_blank"
               ><em>guillermo-moreno.netlify.app</em></a
             >
@@ -34,7 +33,7 @@
     <div class="color-container">
       <nuxt-link to="/projects/Raypal" class="arrow">
         <img src="https://i.imgur.com/siIqyoM.png" alt="Left Arrow" />
-        <p>Proyecto Anterior</p>
+        <p>{{ $t('previous') }}</p>
       </nuxt-link>
       <div class="colors">
         <div class="color-1"><p>#234afc</p></div>
@@ -45,7 +44,7 @@
       </div>
       <nuxt-link to="/projects/FerreteriaBravo" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
-        <p>Proyecto Siguiente</p>
+        <p>{{ $t('next') }}</p>
       </nuxt-link>
     </div>
     <Footer />
@@ -94,7 +93,7 @@ export default {
   transition: all 300ms;
 }
 .arrow p:hover {
-  color: var(--primary-color);
+  color: var(--primary-lighter);
 }
 .title {
   font-family: var(--titles);
@@ -186,3 +185,20 @@ li a:hover {
   text-decoration: underline;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  desc: 'Website, mainly used to show my work done'
+  date: 'Date: September 2020'
+  built: 'Built with Vue, JavaScript, HTML and CSS'
+  web: 'Website'
+  previous: 'Previous Project'
+  next: 'Next Project'
+es:
+  desc: 'Sitio web, utilizado principalmente para mostrar mi trabajo realizado.'
+  date: 'Fecha: Septiembre 2020'
+  built: 'Construído con Vue, JavaScript, HTML y CSS'
+  web: 'Sitio web'
+  previous: 'Proyecto Anterior'
+  next: 'Proyecto Siguiente'
+</i18n>

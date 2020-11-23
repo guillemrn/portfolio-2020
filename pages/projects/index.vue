@@ -2,7 +2,7 @@
   <div>
     <cube :loading="isLoading" :color="'#68d391'" :size="100"></cube>
     <navigation />
-    <h1>Proyectos</h1>
+    <h1>{{ $t('h1') }}</h1>
     <figure class="img-container">
       <img src="https://i.imgur.com/xFwvB6k.png" alt="Man working" />
     </figure>
@@ -117,3 +117,10 @@ h1 {
   margin-bottom: 15rem;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+  h1: 'Projects'
+es:
+  h1: 'Proyectos'
+</i18n>
