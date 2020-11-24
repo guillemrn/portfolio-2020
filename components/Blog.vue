@@ -70,7 +70,7 @@
 }
 .circle {
   position: absolute;
-  top: 380%;
+  top: 360%;
   transform: scale(1.3);
 }
 .title {
