@@ -211,18 +211,82 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .title {
+    padding-left: 0;
+    font-size: 10rem;
+  }
+  .blog-container {
+    flex-flow: column;
+  }
+  .circle {
+    display: none;
+  }
+  .man-reading img {
+    width: 100%;
+  }
+  .card1 {
+    margin-right: 0;
+  }
+  .cards {
+    align-self: initial;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .card1 {
+    width: 50rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .card1 {
+    width: 40rem;
+  }
+  .card1 h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  .title {
+    font-size: 8rem;
+  }
 }
 
 @media screen and (max-width: 426px) {
+  .card1 {
+    width: 38rem;
+  }
+  .card1 h3 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+  .title {
+    font-size: 8rem;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .card1 {
+    width: 30rem;
+    height: 18rem;
+  }
+  .card1 h3 {
+    margin-top: 0;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
 }
 
 @media screen and (max-width: 320px) {

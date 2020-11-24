@@ -4,7 +4,7 @@
     <hero />
     <projects />
     <work />
-    <!-- <blog /> -->
+    <blog />
     <Footer />
   </div>
 </template>
