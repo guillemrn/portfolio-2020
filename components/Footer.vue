@@ -146,7 +146,7 @@ p {
   .container {
     flex-flow: column;
   }
-  .page-options[data-v-0d2d6594] {
+  .page-options {
     position: initial;
     margin-top: initial;
     right: initial;
