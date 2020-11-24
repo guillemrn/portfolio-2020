@@ -68,4 +68,27 @@ figure img {
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 376px) {
+}
+
+@media screen and (max-width: 320px) {
+}
 </style>

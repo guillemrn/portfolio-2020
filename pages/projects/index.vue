@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <cube :loading="isLoading" :color="'#68d391'" :size="100"></cube>
+  <div class="container">
     <navigation />
     <h1>{{ $t('h1') }}</h1>
     <figure class="img-container">
@@ -115,6 +114,75 @@ h1 {
 }
 .projects {
   margin-bottom: 15rem;
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 10rem;
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .img-hover {
+    width: 23rem;
+    height: auto;
+  }
+  .img-container {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 8rem;
+  }
+  .img-hover {
+    width: 16rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 6rem;
+  }
+  .img-hover {
+    width: 14rem;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .img-hover {
+    width: 12rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .img-hover {
+    width: 10rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .img-hover {
+    width: 9rem;
+    height: auto;
+  }
 }
 </style>
 
