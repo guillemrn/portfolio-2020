@@ -3,8 +3,8 @@
     <navigation />
     <hero />
     <projects />
-    <!-- <work />
-    <blog /> -->
+    <!-- <work /> -->
+    <!-- <blog /> -->
     <Footer />
   </div>
 </template>

@@ -59,6 +59,39 @@ button:hover {
   transition: all 0.2s ease;
   text-shadow: 1px 1px 6px #fff;
 }
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-flow: column;
+    margin-top: 10rem;
+  }
+  .container div {
+    text-align: center;
+  }
+  figure img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 376px) {
+}
+
+@media screen and (max-width: 320px) {
+}
 </style>
 
 <i18n lang="yaml">
