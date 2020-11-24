@@ -184,6 +184,128 @@ li a:hover {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .teal {
+    display: none;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .desktop img {
+    width: 100%;
+  }
+  .project-container {
+    flex-flow: column-reverse;
+  }
+  .responsive img {
+    width: 100%;
+  }
+  .project-title {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .color-container {
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .colors div {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem;
+  }
+  .project-container[data-v-b5b1c5c6] {
+    padding: 1rem 0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-container {
+    margin: 1rem 2rem 10rem 2rem;
+  }
+  .title {
+    font-size: 5rem;
+  }
+  .project-description {
+    font-size: 2.5rem;
+  }
+  .colors {
+    margin-bottom: 10rem;
+  }
+  .colors div {
+    width: 7rem;
+    height: 7rem;
+    font-size: 2.2rem;
+  }
+  .arrow img {
+    width: 5rem;
+  }
+  .arrow p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .title {
+    font-size: 4rem;
+  }
+  .project-title {
+    font-size: 3rem;
+  }
+  .project-description {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .colors div {
+    width: 6rem;
+    height: 6rem;
+    font-size: 2rem;
+  }
+  .colors p {
+    padding-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .project-title {
+    font-size: 2.5rem;
+  }
+  .colors div {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  .colors p {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 3rem;
+  }
+  .project-description {
+    font-size: 1.8rem;
+  }
+  .colors div {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.3rem;
+  }
+  .colors p {
+    padding-top: 3.5rem;
+  }
+}
 </style>
 
 <i18n lang="yaml">
