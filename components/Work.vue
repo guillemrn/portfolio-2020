@@ -76,18 +76,45 @@ button:hover {
   figure img {
     width: 100%;
   }
+  button {
+    margin: initial;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .container[data-v-f3610f28] {
+    padding: 1rem 1rem;
+  }
+  .container h1 {
+    font-size: 6rem;
+  }
+  .container p {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .container h1 {
+    font-size: 5rem;
+  }
+  .container p {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 426px) {
 }
 
 @media screen and (max-width: 376px) {
+  .container h1 {
+    font-size: 4rem;
+  }
+  .container p {
+    font-size: 2rem;
+  }
+  button {
+    width: 260px;
+  }
 }
 
 @media screen and (max-width: 320px) {

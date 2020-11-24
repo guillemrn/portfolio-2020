@@ -3,7 +3,7 @@
     <navigation />
     <hero />
     <projects />
-    <!-- <work /> -->
+    <work />
     <!-- <blog /> -->
     <Footer />
   </div>
