@@ -13,7 +13,10 @@
         <img class="circle" src="https://i.imgur.com/4Hd72f0.png" alt="" />
       </figure>
       <div class="cards">
-        <a class="card1" href="#">
+        <a
+          class="card1"
+          href="https://blog.memobrown.com/rick-sanchez-css.html"
+        >
           <h3>{{ $t('rick') }}</h3>
           <p class="small">
             {{ $t('text') }}
@@ -23,7 +26,10 @@
           </div>
         </a>
 
-        <a class="card1" href="#">
+        <a
+          class="card1"
+          href="https://blog.memobrown.com/recomendaciones-cuarentena.html"
+        >
           <h3>{{ $t('recomm') }}</h3>
           <p class="small">
             {{ $t('movies') }}
