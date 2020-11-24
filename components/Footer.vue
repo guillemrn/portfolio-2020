@@ -136,6 +136,62 @@ p {
   align-items: center;
   margin-right: 10rem;
 }
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-flow: column;
+  }
+  .page-options[data-v-0d2d6594] {
+    position: initial;
+    margin-top: initial;
+    right: initial;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    margin-right: initial;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+  .hand img {
+    width: 15rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  .social-icon {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 376px) {
+  p {
+    font-size: 1.5rem;
+  }
+  .social-icon {
+    font-size: 2.5rem;
+  }
+  .hand img {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
 </style>
 
 <i18n lang="yaml">

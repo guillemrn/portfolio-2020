@@ -105,18 +105,64 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    flex-flow: column;
+  }
+  .designBox {
+    display: none;
+  }
+  .boy img {
+    bottom: initial;
+    transform: scale(1);
+    width: 100%;
+  }
+  .hero-title {
+    margin-top: initial;
+    padding-right: initial;
+    align-items: center;
+    text-align: center;
+  }
+  h1 {
+    margin: 4rem;
+    position: relative;
+    z-index: 1;
+  }
+  .button {
+    margin: initial;
+  }
+  .diamond {
+    top: 35%;
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  h1 {
+    font-size: 4.5rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .dark-circle {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 426px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .button {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 320px) {

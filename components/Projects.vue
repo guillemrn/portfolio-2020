@@ -159,6 +159,44 @@
 .mmm {
   color: var(--darkTheme);
 }
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 10rem;
+  }
+  .project-img {
+    flex-flow: column;
+  }
+  .half-cirlce {
+    display: none;
+  }
+  .project-img img {
+    width: 25rem;
+  }
+  .img-project img[data-v-3a2ed856] {
+    left: 45%;
+  }
+  .man img {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 426px) {
+}
+
+@media screen and (max-width: 376px) {
+}
+
+@media screen and (max-width: 320px) {
+}
 </style>
 
 <i18n lang="yaml">
