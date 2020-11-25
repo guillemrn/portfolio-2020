@@ -159,6 +159,17 @@
 .mmm {
   color: var(--darkTheme);
 }
+@media screen and (max-width: 1440px) {
+  .half-cirlce {
+    top: 168%;
+  }
+  .half-cirlce img {
+    width: 50rem;
+  }
+  .project-img img {
+    width: 30rem;
+  }
+}
 @media screen and (max-width: 1024px) {
   .container {
     margin-top: 10rem;

@@ -74,6 +74,12 @@ figure img {
   z-index: 1;
 }
 @media screen and (max-width: 1440px) {
+  .rectangle img {
+    width: 40rem;
+  }
+  .rectangle {
+    top: 100%;
+  }
 }
 
 @media screen and (max-width: 1024px) {

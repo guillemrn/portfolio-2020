@@ -185,6 +185,9 @@ li a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 1440px) {
+  .desktop img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
