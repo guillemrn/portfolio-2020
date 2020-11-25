@@ -63,6 +63,24 @@ button:hover {
 }
 
 @media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 10rem;
+  }
+  .container div {
+    text-align: center;
+  }
+  .container h1 {
+    font-size: 6rem;
+  }
+  .container p {
+    font-size: 3rem;
+  }
+  figure img {
+    width: 150%;
+  }
+  button {
+    margin: initial;
+  }
 }
 
 @media screen and (max-width: 768px) {

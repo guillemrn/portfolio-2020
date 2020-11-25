@@ -2,7 +2,7 @@
   <div>
     <navigation />
     <div class="container">
-      <figure>
+      <figure class="guillermo">
         <img src="https://i.imgur.com/T3A8Bii.png" alt="Guillermo Moreno" />
         <div>
           <h1>{{ $t('title') }}</h1>
@@ -77,6 +77,21 @@ figure img {
 }
 
 @media screen and (max-width: 1024px) {
+  .rectangle img {
+    width: 30rem;
+  }
+  .guillermo img {
+    width: 45rem;
+  }
+  figure {
+    align-items: center;
+    flex-flow: column;
+  }
+  .rectangle {
+    width: 30%;
+    top: 60%;
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {

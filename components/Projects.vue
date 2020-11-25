@@ -160,6 +160,26 @@
   color: var(--darkTheme);
 }
 @media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 10rem;
+  }
+  .title {
+    font-size: 10rem;
+    padding-left: initial;
+    text-align: center;
+  }
+  .project-img {
+    flex-flow: column;
+  }
+  .project-img img {
+    width: 25rem;
+  }
+  .img-project img {
+    left: 45%;
+  }
+  .man img {
+    width: 40rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

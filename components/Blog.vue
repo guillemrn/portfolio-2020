@@ -214,6 +214,23 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+  .title {
+    padding-left: 0;
+    font-size: 10rem;
+  }
+  .circle {
+    transform: scale(1);
+  }
+  .man-reading img {
+    width: 120%;
+  }
+  .card1 {
+    margin-right: 0;
+    width: 45rem;
+  }
+  .cards {
+    align-self: initial;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -102,6 +102,21 @@ h1 {
 }
 
 @media screen and (max-width: 1024px) {
+  .boy img {
+    transform: scale(1);
+    width: 55rem;
+  }
+  .hero-title {
+    margin-top: 0rem;
+  }
+  h1 {
+    font-size: 4.5rem;
+    margin-left: 6rem;
+  }
+  .button {
+    padding: 2rem 5rem;
+    margin-left: 6rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

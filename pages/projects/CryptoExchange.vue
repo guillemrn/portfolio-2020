@@ -186,6 +186,12 @@ li a:hover {
 }
 
 @media screen and (max-width: 1024px) {
+  img {
+    width: 100%;
+  }
+  .teal {
+    width: 50rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
