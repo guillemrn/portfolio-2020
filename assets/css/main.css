@@ -49,3 +49,9 @@ body {
   background-color: var(--lightTheme);
   transition: background-color 0.3s;
 }
+
+.loadContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}

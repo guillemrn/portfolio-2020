@@ -82,6 +82,13 @@ figure img {
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .rectangle {
+    top: 110%;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .rectangle img {
     width: 30rem;

@@ -61,6 +61,11 @@ button:hover {
 }
 @media screen and (max-width: 1440px) {
 }
+@media screen and (max-width: 1366px) {
+  figure img {
+    width: 125%;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .container {

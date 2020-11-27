@@ -205,5 +205,5 @@ en:
   title: "I'm Guillermo Moreno UI Designer and Frontend developer"
 es:
   know: 'Conoce mi trabajo'
-  title: 'Soy Guillermo Moreno diseñador UI y Desarrollador web'
+  title: 'Soy Guillermo Moreno Diseñador UI y Desarrollador web'
 </i18n>

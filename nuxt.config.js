@@ -29,7 +29,13 @@ export default {
       },
     ],
   },
-
+  ssr: false,
+  mode: 'spa',
+  loadingIndicator: {
+    name: 'cube-grid',
+    color: '#FF5D6C',
+    background: '#F2FCFF',
+  },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ['@/assets/css/main.css', '@/assets/css/style.css'],
 

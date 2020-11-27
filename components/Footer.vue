@@ -5,7 +5,7 @@
     </div>
     <figure class="hand">
       <a href="#header">
-        <img src="https://i.imgur.com/qNBCXXf.png" alt="Hand" />
+        <img src="https://i.imgur.com/3DCdCuu.png" alt="Hand" />
       </a>
     </figure>
     <div class="social">
@@ -81,6 +81,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10rem;
 }
 p {
   font-size: 2.4rem;
@@ -95,7 +96,7 @@ p {
   flex-flow: column;
 }
 .hand img {
-  width: 22rem;
+  width: 8rem;
   height: auto;
 }
 .social {
