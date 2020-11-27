@@ -30,7 +30,6 @@ export default {
     ],
   },
   ssr: false,
-  mode: 'spa',
   loadingIndicator: {
     name: 'cube-grid',
     color: '#FF5D6C',

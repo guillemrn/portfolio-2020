@@ -115,7 +115,6 @@ h1 {
     margin-left: 6rem;
   }
 }
-
 @media screen and (max-width: 1024px) {
   .boy img {
     transform: scale(1);
