@@ -51,7 +51,7 @@
   z-index: 1;
 }
 .logo {
-  width: 130px;
+  width: 80px;
   height: auto;
 }
 /* MENU STYLES */
