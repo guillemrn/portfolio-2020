@@ -4,7 +4,7 @@
       <nuxt-link to="/"
         ><img
           class="logo"
-          src="https://i.imgur.com/dsX64J3.png"
+          src="https://i.imgur.com/ZzkBAh3.png"
           alt="Logo MemoBrown"
       /></nuxt-link>
     </figure>
