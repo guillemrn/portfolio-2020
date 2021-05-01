@@ -11,17 +11,17 @@
         <nuxt-link to="/projects/Raypal" class="project">
           <img
             class="raypal img-hover"
-            src="https://i.imgur.com/BYtWpA6.png"
+            src="https://i.imgur.com/jZgnzmn.png"
             alt="Raypal"
           />
         </nuxt-link>
 
         <div class="div">
-          <nuxt-link to="/projects/MemoBrown" class="project">
+          <nuxt-link to="/projects/Vitruvio" class="project">
             <img
-              class="memobrown img-hover"
-              src="https://i.imgur.com/5JNMRGd.png"
-              alt="MemoBrown"
+              class="vitruvio img-hover"
+              src="https://i.imgur.com/lJ9cXbw.png"
+              alt="Vitruvio"
             />
           </nuxt-link>
 
@@ -87,7 +87,7 @@ h1 {
 .crypto {
   margin-left: 5px;
 }
-.memobrown {
+.vitruvio {
   margin-bottom: 2.5px;
 }
 .ferrebravo {

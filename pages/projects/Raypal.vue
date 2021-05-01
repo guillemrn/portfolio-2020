@@ -3,7 +3,7 @@
     <navigation />
     <h1 class="title">{{ titlePage }}</h1>
     <figure class="desktop">
-      <img src="https://i.imgur.com/Gseg8Lq.png" :alt="titlePage" />
+      <img src="https://i.imgur.com/n2ffGEL.png" :alt="titlePage" />
     </figure>
     <figure class="img-decorate">
       <img class="teal" src="https://i.imgur.com/ljsxoed.png" alt="" />
@@ -27,7 +27,7 @@
         </ul>
       </div>
       <figure class="responsive">
-        <img src="https://i.imgur.com/LXowqED.png" :alt="titlePage" />
+        <img src="https://i.imgur.com/eu8hPYZ.png" :alt="titlePage" />
       </figure>
     </div>
     <div class="color-container">
@@ -36,13 +36,13 @@
         <p>{{ $t('previous') }}</p>
       </nuxt-link>
       <div class="colors">
-        <div class="color-1"><p>#299767</p></div>
-        <div class="color-2"><p>#39c38d</p></div>
-        <div class="color-3"><p>#8ac371</p></div>
-        <div class="color-4"><p>#7bc600</p></div>
-        <div class="color-5"><p>#f8fcf2</p></div>
+        <div class="color-1"><p>#222222</p></div>
+        <div class="color-2"><p>#004f77</p></div>
+        <div class="color-3"><p>#11a4bf</p></div>
+        <div class="color-4"><p>#66b969</p></div>
+        <div class="color-5"><p>#1e9f6d</p></div>
       </div>
-      <nuxt-link to="/projects/MemoBrown" class="arrow">
+      <nuxt-link to="/projects/Vitruvio" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
         <p>{{ $t('next') }}</p>
       </nuxt-link>
@@ -138,19 +138,19 @@ export default {
   color: var(--textDark);
 }
 .color-1 {
-  background-color: #299767;
+  background-color: #222222;
 }
 .color-2 {
-  background-color: #39c38d;
+  background-color: #004f77;
 }
 .color-3 {
-  background-color: #8ac371;
+  background-color: #11a4bf;
 }
 .color-4 {
-  background-color: #7bc600;
+  background-color: #66b969;
 }
 .color-5 {
-  background-color: #f8fcf2;
+  background-color: #1e9f6d;
 }
 .project-title {
   font-family: var(--titles);
@@ -320,16 +320,16 @@ li a:hover {
 <i18n lang="yaml">
 en:
   desc: 'Raypal recycles your paper and collects it at home from a box, promoting recycling in people'
-  date: 'Date: May 2020'
-  built: 'Built with JavaScript, HTML and CSS'
+  date: 'Date: February 2021'
+  built: 'Built with NuxtJs, HTML and CSS'
   web: 'Website'
   previous: 'Previous Project'
   next: 'Next Project'
 es:
   desc: 'Raypal recicla tu papel y recolecta a domicilio desde una caja,
     incentivando el reciclaje en las personas'
-  date: 'Fecha: Mayo 2020'
-  built: 'Construído con JavaScript, HTML y CSS'
+  date: 'Fecha: Febrero 2021'
+  built: 'Construído con NuxtJs, HTML y CSS'
   web: 'Sitio web'
   previous: 'Proyecto Anterior'
   next: 'Proyecto Siguiente'

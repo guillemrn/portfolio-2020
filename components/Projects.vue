@@ -31,7 +31,7 @@
           />
           <div class="overlay">
             <figure class="img-project">
-              <img src="https://i.imgur.com/IFGuDwg.png" alt="Raypal logo" />
+              <img src="https://i.imgur.com/2w42Duw.png" alt="Raypal logo" />
             </figure>
           </div>
         </nuxt-link>

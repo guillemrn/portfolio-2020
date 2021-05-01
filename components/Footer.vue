@@ -163,7 +163,7 @@ p {
 
 @media screen and (max-width: 480px) {
   .hand img {
-    width: 15rem;
+    width: 6rem;
   }
   p {
     font-size: 1.8rem;
@@ -184,7 +184,7 @@ p {
     font-size: 2.5rem;
   }
   .hand img {
-    width: 12rem;
+    width: 4rem;
   }
 }
 

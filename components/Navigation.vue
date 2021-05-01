@@ -218,7 +218,7 @@ ul {
 
 @media screen and (max-width: 576px) {
   .logo {
-    width: 10rem;
+    width: 5rem;
   }
 }
 
@@ -230,7 +230,7 @@ ul {
 
 @media screen and (max-width: 376px) {
   .logo {
-    display: none;
+    width: 3rem;
   }
 }
 

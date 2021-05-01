@@ -3,7 +3,7 @@
     <navigation />
     <h1 class="title">{{ titlePage }}</h1>
     <figure class="desktop">
-      <img src="https://i.imgur.com/CZq96Db.png" :alt="titlePage" />
+      <img src="https://i.imgur.com/RjaJFPQ.png" :alt="titlePage" />
     </figure>
     <figure class="img-decorate">
       <img class="teal" src="https://i.imgur.com/ljsxoed.png" alt="" />
@@ -20,14 +20,14 @@
           <li>{{ $t('built') }}</li>
           <li>
             {{ $t('web') }}
-            <a href="https://guillermo-moreno.netlify.app/" target="_blank"
-              ><em>guillermo-moreno.netlify.app</em></a
+            <a href="https://vitruviomkt.com/" target="_blank"
+              ><em>vitruviomkt.com</em></a
             >
           </li>
         </ul>
       </div>
       <figure class="responsive">
-        <img src="https://i.imgur.com/G6Xd9rl.png" :alt="titlePage" />
+        <img src="https://i.imgur.com/aDqgFu6.png" :alt="titlePage" />
       </figure>
     </div>
     <div class="color-container">
@@ -36,11 +36,11 @@
         <p>{{ $t('previous') }}</p>
       </nuxt-link>
       <div class="colors">
-        <div class="color-1"><p>#234afc</p></div>
-        <div class="color-2"><p>#ff00ff</p></div>
-        <div class="color-3"><p>#ff9b4f</p></div>
-        <div class="color-4"><p>#27272b</p></div>
-        <div class="color-5"><p>#edeeff</p></div>
+        <div class="color-1"><p>#2d2d2d</p></div>
+        <div class="color-2"><p>#515151</p></div>
+        <div class="color-3"><p>#efd928</p></div>
+        <div class="color-4"><p>#eb2c8b</p></div>
+        <div class="color-5"><p>#f749bb</p></div>
       </div>
       <nuxt-link to="/projects/FerreteriaBravo" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
@@ -61,11 +61,11 @@ export default {
   },
   data() {
     return {
-      titlePage: 'MemoBrown',
+      titlePage: 'Vitruvio',
     }
   },
   head: {
-    title: 'MemoBrown',
+    title: 'Vitruvio',
   },
 }
 </script>
@@ -143,19 +143,19 @@ export default {
   color: var(--textDark);
 }
 .color-1 {
-  background-color: #234afc;
+  background-color: #2d2d2d;
 }
 .color-2 {
-  background-color: #ff00ff;
+  background-color: #515151;
 }
 .color-3 {
-  background-color: #ff9b4f;
+  background-color: #efd928;
 }
 .color-4 {
-  background-color: #27272b;
+  background-color: #eb2c8b;
 }
 .color-5 {
-  background-color: #edeeff;
+  background-color: #f749bb;
 }
 .project-title {
   font-family: var(--titles);
@@ -319,16 +319,16 @@ li a:hover {
 
 <i18n lang="yaml">
 en:
-  desc: 'Website, mainly used to show my work done'
-  date: 'Date: September 2020'
-  built: 'Built with Vue, JavaScript, HTML and CSS'
+  desc: 'Marketing agency'
+  date: 'Date: April 2021'
+  built: 'Built with NuxtJs, HTML and CSS'
   web: 'Website'
   previous: 'Previous Project'
   next: 'Next Project'
 es:
-  desc: 'Sitio web, utilizado principalmente para mostrar mi trabajo realizado.'
-  date: 'Fecha: Septiembre 2020'
-  built: 'Construído con Vue, JavaScript, HTML y CSS'
+  desc: 'Agencia de marketing'
+  date: 'Fecha: Abril 2021'
+  built: 'Construído con NuxtJs, HTML y CSS'
   web: 'Sitio web'
   previous: 'Proyecto Anterior'
   next: 'Proyecto Siguiente'
