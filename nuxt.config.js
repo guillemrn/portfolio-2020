@@ -39,7 +39,7 @@ export default {
   css: ['@/assets/css/main.css', '@/assets/css/style.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
+  plugins: [],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -50,7 +50,11 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/svg',
     '@nuxtjs/color-mode',
+    '@nuxtjs/google-analytics',
   ],
+  googleAnalytics: {
+    id: 'UA-153641217-1',
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['nuxt-i18n'],
