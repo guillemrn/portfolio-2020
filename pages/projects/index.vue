@@ -34,11 +34,11 @@
           </nuxt-link>
         </div>
 
-        <nuxt-link to="/projects/CryptoExchange" class="project">
+        <nuxt-link to="/projects/Fuerza-y-Valor" class="project">
           <img
             class="crypto img-hover"
-            src="https://i.imgur.com/gTrzdzs.png"
-            alt="CryptoExchange"
+            src="https://i.imgur.com/XubCMAE.png"
+            alt="Fuerza y Valor"
           />
         </nuxt-link>
       </div>

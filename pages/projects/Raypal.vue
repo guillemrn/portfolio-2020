@@ -31,7 +31,7 @@
       </figure>
     </div>
     <div class="color-container">
-      <nuxt-link to="/projects/CryptoExchange" class="arrow">
+      <nuxt-link to="/projects/Fuerza-y-Valor" class="arrow">
         <img src="https://i.imgur.com/siIqyoM.png" alt="Left Arrow" />
         <p>{{ $t('previous') }}</p>
       </nuxt-link>

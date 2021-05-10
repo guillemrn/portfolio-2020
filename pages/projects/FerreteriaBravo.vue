@@ -42,7 +42,7 @@
         <div class="color-4"><p>#2c2a29</p></div>
         <div class="color-5"><p>#ffe5dd</p></div>
       </div>
-      <nuxt-link to="/projects/CryptoExchange" class="arrow">
+      <nuxt-link to="/projects/Fuerza-y-Valor" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
         <p>{{ $t('next') }}</p>
       </nuxt-link>

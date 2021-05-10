@@ -3,7 +3,7 @@
     <navigation />
     <h1 class="title">{{ titlePage }}</h1>
     <figure class="desktop">
-      <img src="https://i.imgur.com/9VW9gHa.png" :alt="titlePage" />
+      <img src="https://i.imgur.com/9s3TjtD.png" :alt="titlePage" />
     </figure>
     <figure class="img-decorate">
       <img class="teal" src="https://i.imgur.com/ljsxoed.png" alt="" />
@@ -18,14 +18,14 @@
           <li>{{ $t('built') }}</li>
           <li>
             {{ $t('web') }}
-            <a href="https://cryptoc-exchange.netlify.app/" target="_blank"
-              ><em>cryptoc-exchange.netlify.app</em></a
+            <a href="https://fuerzayvalor.com/" target="_blank"
+              ><em>fuerzayvalor.com</em></a
             >
           </li>
         </ul>
       </div>
       <figure class="responsive">
-        <img src="https://i.imgur.com/7iA4RGD.png" :alt="titlePage" />
+        <img src="https://i.imgur.com/itEPI0l.png" :alt="titlePage" />
       </figure>
     </div>
     <div class="color-container">
@@ -34,11 +34,11 @@
         <p>{{ $t('previous') }}</p>
       </nuxt-link>
       <div class="colors">
-        <div class="color-1"><p>#68d391</p></div>
-        <div class="color-2"><p>#2f855a</p></div>
-        <div class="color-3"><p>#ffa500</p></div>
-        <div class="color-4"><p>#718096</p></div>
-        <div class="color-5"><p>#e2e8f0</p></div>
+        <div class="color-1"><p>#0F709C</p></div>
+        <div class="color-2"><p>#56C2E4</p></div>
+        <div class="color-3"><p>#1A6F95</p></div>
+        <div class="color-4"><p>#1EC48B</p></div>
+        <div class="color-5"><p>#FFFFFF</p></div>
       </div>
       <nuxt-link to="/projects/Raypal" class="arrow">
         <img src="https://i.imgur.com/MxEy6sb.png" alt="Right Arrow" />
@@ -59,11 +59,11 @@ export default {
   },
   data() {
     return {
-      titlePage: 'CryptoExchange',
+      titlePage: 'Fuerza y Valor',
     }
   },
   head: {
-    title: 'CryptoExchange',
+    title: 'Fuerza y Valor',
   },
 }
 </script>
@@ -141,19 +141,19 @@ export default {
   color: var(--textDark);
 }
 .color-1 {
-  background-color: #68d391;
+  background-color: #0f709c;
 }
 .color-2 {
-  background-color: #2f855a;
+  background-color: #56c2e4;
 }
 .color-3 {
-  background-color: #ffa500;
+  background-color: #1a6f95;
 }
 .color-4 {
-  background-color: #718096;
+  background-color: #1ec48b;
 }
 .color-5 {
-  background-color: #e2e8f0;
+  background-color: #fff;
 }
 .project-title {
   font-family: var(--titles);
@@ -317,16 +317,16 @@ li a:hover {
 
 <i18n lang="yaml">
 en:
-  desc: 'helps you to know in real time the value of the different crypto currencies'
-  date: 'Date: September 2020'
-  built: 'Built with Vue, JavaScript, HTML and CSS'
+  desc: 'it is a new Christian bookstore but with a great experience'
+  date: 'Date: March 2020'
+  built: 'Built with Shopify'
   web: 'Website'
   previous: 'Previous Project'
   next: 'Next Project'
 es:
-  desc: 'te ayuda a saber en tiempo real el valor de las distintas crypto monedas'
-  date: 'Fecha: Septiembre 2020'
-  built: 'Construído con Vue, JavaScript, HTML y CSS'
+  desc: 'es una librería cristiana joven pero con una gran experiencia.'
+  date: 'Fecha: Marzo 2020'
+  built: 'Construído con Shopify'
   web: 'Sitio web'
   previous: 'Proyecto Anterior'
   next: 'Proyecto Siguiente'
