@@ -1,7 +1,7 @@
 <template>
   <div class="menu" data-animation="bonus">
     <h1>
-      <a class="title" href="blog-memobrown.netlify.app" target="_blank"
+      <a class="title" href="https://blog-memobrown.netlify.app" target="_blank"
         >Blog</a
       >
     </h1>
@@ -15,7 +15,7 @@
       <div class="cards">
         <a
           class="card1"
-          href="blog-memobrown.netlify.app/rick-sanchez-css.html"
+          href="https://blog-memobrown.netlify.app/rick-sanchez-css.html"
         >
           <h3>{{ $t('rick') }}</h3>
           <p class="small">
@@ -28,7 +28,7 @@
 
         <a
           class="card1"
-          href="blog-memobrown.netlify.app/recomendaciones-cuarentena.html"
+          href="https://blog-memobrown.netlify.app/recomendaciones-cuarentena.html"
         >
           <h3>{{ $t('recomm') }}</h3>
           <p class="small">
