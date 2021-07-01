@@ -16,6 +16,7 @@
         <a
           class="card1"
           href="https://blog-memobrown.netlify.app/rick-sanchez-css.html"
+          target="_blank"
         >
           <h3>{{ $t('rick') }}</h3>
           <p class="small">
@@ -29,6 +30,7 @@
         <a
           class="card1"
           href="https://blog-memobrown.netlify.app/recomendaciones-cuarentena.html"
+          target="_blank"
         >
           <h3>{{ $t('recomm') }}</h3>
           <p class="small">
