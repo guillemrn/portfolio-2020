@@ -28,7 +28,7 @@
                 <nuxt-link to="#work">{{ $t('contact') }}</nuxt-link>
               </li> -->
               <li>
-                <a href="https://blog.memobrown.com" target="_blank">{{
+                <a href="blog-memobrown.netlify.app" target="_blank">{{
                   $t('blog')
                 }}</a>
               </li>
