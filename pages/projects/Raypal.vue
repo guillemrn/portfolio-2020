@@ -171,7 +171,7 @@ export default {
   right: 0;
 }
 li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--textDark);
   transition: all 300ms;
 }
